@@ -1,0 +1,34 @@
+Notas palas-atenea 6/5
+
+El analisis del sueldo se tiene que separar en sub-grupos:
+
+- Los que ganan en dolares
+- Los que ganan en pesos
+- Los que trabajan full-time
+- Los que trabajan part-time
+
+Para simplificar el analisis, vamos a quedarnos con el subgrupo de los que ganan en pesos y full-time.
+
+----
+
+Eliminar outliers.
+
+Metodo 1: Recortar por cuantiles
+Metodo 2: Recortar por desviacion
+(Hay mas metodos pero tenemos estos)
+
+Recortando por cuantiles se puede ir midiendo segun se acomoden los valores mas extremos fuera de los considerados. Los outliers no nos interesan y con este metodo nos aseguramos que se eliminen los que se alejan mucho del resto, o que no tengan sentido.
+
+Recortando por desviacion se tiene en cuenta a toda la muestra y pueden quedar casos extremos considerados. Se puede ajustar el factor para incluir mas o menos.
+
+----
+Porque usamos el salario neto y no el bruto?
+
+----
+Distribucion de salarios segun si ganan o no en dolares.
+
+Analizando la distribucion de los que cobran en dolares, se van a dejar 
+
+----
+Los boxenplot que dividen el analisis segun el contrato de trabajo nos sirven para determinar cuales son los subgrupos con los que vamos a trabajar. Permiten tomar decisiones sobre que es lo que en ultima instancia se va a mostrar.
+
